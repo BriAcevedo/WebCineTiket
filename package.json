@@ -2,11 +2,11 @@
   "name": "appcineticket",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "@capacitor/core": "^7.4.3",
     "axios": "^1.12.2",
     "emailjs-com": "^3.2.0",
+    "express": "^5.2.1",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   },
